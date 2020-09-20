@@ -106,13 +106,13 @@ class td_block_template_14 extends td_block_template {
 
         // there is a custom title
         $buffy = '';
-        $buffy .= '<h4 class="td-block-title">';
+        $buffy .= '<div class="td-block-title">';
         if (!empty($custom_url)) {
             $buffy .= '<a href="' . esc_url($custom_url) . '">' . esc_html($custom_title) . '</a>';
         } else {
             $buffy .= '<span>' . esc_html($custom_title) . '</span>';
         }
-        $buffy .= '</h4>';
+        $buffy .= '</div>';
         return $buffy;
     }
 

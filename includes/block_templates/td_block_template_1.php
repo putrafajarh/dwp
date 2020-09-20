@@ -24,7 +24,7 @@ class td_block_template_1 extends td_block_template {
 
         $custom_title = $this->get_att('custom_title');
         $custom_url = $this->get_att('custom_url');
-        $title_tag = 'h4';
+        $title_tag = 'div';
         
         // title_tag used only on Title shortcode
         $block_title_tag = $this->get_att('title_tag');

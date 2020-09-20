@@ -108,7 +108,7 @@ class td_block_template_13 extends td_block_template {
 
         // there is a custom title
         $buffy = '';
-        $buffy .= '<h4 class="td-block-title' . $title_alignment . '">';
+        $buffy .= '<div class="td-block-title' . $title_alignment . '">';
         if (!empty($custom_url)) {
             $buffy .= '<a href="' . esc_url($custom_url) . '">' . esc_html($custom_title) . '</a>';
         } else {
@@ -117,7 +117,7 @@ class td_block_template_13 extends td_block_template {
 
         $buffy .= '<div class="td-block-subtitle">' . esc_html($description_text) . '</div>';
 
-        $buffy .= '</h4>';
+        $buffy .= '</div>';
         return $buffy;
     }
 
