@@ -10,7 +10,7 @@ class td_category_template_8 extends td_category_template {
                 <div class="td-crumb-container"><?php echo parent::get_breadcrumbs(); ?></div>
                 <div class="td-category-title-holder">
 
-                    <h1 class="entry-title td-page-title"><?php echo parent::get_title(); ?></h1>
+                    <h1 class="entry-title td-page-title">Berita <?php echo parent::get_title(); ?></h1>
                     <?php echo parent::get_sibling_categories(); ?>
                     <?php echo parent::get_description(); ?>
 
