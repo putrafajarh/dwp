@@ -2603,8 +2603,8 @@ function on_widget_display_callback($currentWidgetInstanceSettings, $currentWidg
 		if ($global_block_template_id === 'td_block_template_1') {
 			$block_title_class = 'block-title';
 		}
-		$widgetArgs['before_title'] = '<h4 class="' . $block_title_class . '"><span>';
-		$widgetArgs['after_title'] = '</span></h4>';
+		$widgetArgs['before_title'] = '<div class="' . $block_title_class . '"><span>';
+		$widgetArgs['after_title'] = '</span></div>';
 
 		call_user_func_array(array($currentWidgetInstance, 'widget'), array($widgetArgs, $currentWidgetInstanceSettings));
 

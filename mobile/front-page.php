@@ -58,7 +58,7 @@ if ('posts' == get_option('show_on_front')) {
 
         <div class="td-container td-pb-article-list td-main-content" role="main">
             <?php if ( empty( $paged ) or $paged < 2 ) { ?>
-                <h4 class="block-title"><span><?php echo $td_list_custom_title; ?></span></h4>
+                <div class="block-title"><span><?php echo $td_list_custom_title; ?></span></div>
             <?php }
 
             $posts_per_page = get_query_var('posts_per_page') ? get_query_var('posts_per_page') : 10;

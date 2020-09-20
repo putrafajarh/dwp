@@ -20,7 +20,7 @@ get_header();
             <a href="<?php echo esc_url(home_url( '/' )); ?>"><?php _etd('HOMEPAGE', TD_THEME_NAME); ?></a>
         </div>
 
-        <h4 class="block-title"><span><?php echo __td('OUR LATEST POSTS', TD_THEME_NAME)?></span></h4>
+        <div class="block-title"><span><?php echo __td('OUR LATEST POSTS', TD_THEME_NAME)?></span></div>
 
         <?php
         $args = array(
