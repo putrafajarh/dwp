@@ -11,7 +11,7 @@ class td_module_3 extends td_module {
         ob_start();
         ?>
 
-        <div class="<?php echo $this->get_module_classes();?>">
+        <h2 class="<?php echo $this->get_module_classes();?>">
             <div class="td-module-image">
                 <?php echo $this->get_image('td_324x235');?>
                 <?php if (td_util::get_option('tds_category_module_3') == 'yes') { echo $this->get_category(); }?>
@@ -27,7 +27,7 @@ class td_module_3 extends td_module {
 
             <?php echo $this->get_quotes_on_blocks();?>
 
-        </div>
+        </h2>
 
         <?php return ob_get_clean();
     }

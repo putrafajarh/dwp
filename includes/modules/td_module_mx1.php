@@ -11,7 +11,7 @@ class td_module_mx1 extends td_module {
         ob_start();
         ?>
 
-        <div class="<?php echo $this->get_module_classes();?>">
+        <h2 class="<?php echo $this->get_module_classes();?>">
             <?php echo $this->get_image('td_356x220');?>
 
             <div class="td-module-meta-info">
@@ -25,7 +25,7 @@ class td_module_mx1 extends td_module {
                 </div>
             </div>
 
-        </div>
+        </h2>
 
         <?php return ob_get_clean();
     }
