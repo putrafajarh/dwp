@@ -2,7 +2,7 @@
 /*  ----------------------------------------------------------------------------
     the blog index template
  */
-
+opcache_reset();
 get_header();
 
 //set the template id, used to get the template specific settings - this was the old home.php template
