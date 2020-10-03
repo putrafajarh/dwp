@@ -12,6 +12,7 @@
 </head>
 
 <body <?php body_class() ?> itemscope="itemscope" itemtype="<?php echo td_global::$http_or_https?>://schema.org/WebPage">
+<div class="putrafajarh"></div>
 
     <?php /* scroll to top */?>
     <div class="td-scroll-up"><i class="td-icon-menu-up"></i></div>
